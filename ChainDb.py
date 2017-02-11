@@ -14,7 +14,7 @@ import os
 import time
 from decimal import Decimal
 from Cache import Cache
-from gevent.coros import BoundedSemaphore
+from gevent.lock import BoundedSemaphore
 import bitcoin
 from bitcoin.core import *
 from bitcoin.core.scripteval import VerifySignature
